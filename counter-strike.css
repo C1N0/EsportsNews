@@ -1,0 +1,194 @@
+/* Counter-Strike */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.header
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/counterBack.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.text-box
+{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+
+.text-box img
+{
+    width: 300px;
+    color: #fff;
+}
+
+
+.text-box h1
+{
+    font-size: 62px;
+}
+
+.text-box p
+{
+    margin: 10px 0 40px;
+    font-size:25px;
+    color: white;
+    position: relative;
+}
+
+
+.container
+{
+    display: flex;
+    padding: 18% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 0;
+    top: 25%;
+    left:50%; 
+}
+  
+.container ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.hero-btn
+{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover
+{
+    border: 1px #b17926;
+    background: #b17926;
+    transition: 0.5s;
+}
+
+
+.responsive-iframe {
+	
+	height: 315px;
+	width: 420px;
+}
+
+
+.videos
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+
+
+@media (max-width: 990px) {
+
+
+    .responsive-iframe
+    {
+        height: 150px;
+	    width: 250px;
+    }
+    .videos
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+    
+    .text-box h1
+    {
+        font-size: 20px;
+    }
+    .text-box p
+    {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 768px) 
+{
+    .container ul li
+{ 
+    top: 0%;
+    left:50%; 
+}
+.container ul 
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+}
+.container ul li a 
+{
+    font-size: 10px;
+}
+
+.text-box p
+{
+    font-size:85%;
+    top: -10px;
+}
+.header
+{
+    display: flex;
+    justify-content: center;
+}
+.videos
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+
+    
+}
+
+}
+

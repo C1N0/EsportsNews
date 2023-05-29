@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <meta name="viewport" content="with=device-width, initial-scale=1.0">
         <title>ItsGamingTime - Gaming news and more</title>
         <link rel="stylesheet" href="index.css">
@@ -16,9 +17,9 @@
                     
                     <ul>
                         <li><a href="">Home</a></li>
-                        <li><a href="counter-strike.html">Counter-Strike</a></li>
-                        <li><a href="">League of Legends</a></li>
-                        <li><a href="">Fifa</a></li>
+                        <li><a href="counter-strike.html" onclick="return checkAge(event)">Counter-Strike</a></li>
+                        <li><a href="" onclick="return checkAge(event)">League of Legends</a></li>
+                        <li><a href="" onclick="return checkAge(event)">Fifa</a></li>
                     </ul>
                 </div>
             </nav>
@@ -27,6 +28,12 @@
             <p>The most accurate Esports News website. If you are a gamer you must visit us!</p>
             <a href="" class="hero-btn">Check it out!</a>
           </div>  
+        </section>
+
+        <section class="esports" id="esports">
+            <h1>Esports News</h1>
+            <div class="news-list" id="esports-news"></div>
+            <a href="teams.html" class="teams-btn">View Teams</a>
         </section>
 
         <section class="media">
@@ -49,7 +56,11 @@
                 </div>
             </div>
         </section>
+        
+    
 
+        <script src="index.js"></script>
+    
 
     </body>
 </html>

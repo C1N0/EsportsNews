@@ -1,0 +1,53 @@
+body {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+  }
+
+  label[for="team-name"] {
+    color: white;
+  }
+  
+  #team-list {
+    color: white;
+  }
+  
+  
+  #search-form {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .dis-btn,
+  .show-btn,
+  .clear-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #e86c00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .dis-btn:hover,
+  .show-btn:hover,
+  .clear-btn:hover {
+    background-color: #ff8800;
+  }
+  
+  #team-list {
+    margin-top: 40px;
+  }
+  

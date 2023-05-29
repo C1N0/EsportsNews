@@ -14,7 +14,7 @@ html,body
 
 .header
 {
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.jpg);
     background-position: center;
@@ -110,13 +110,6 @@ nav img
 
 
 
-
-
-
-
-
-
-
 @media (max-width: 990px) {
     
     .text-box h1
@@ -192,3 +185,79 @@ img
 {
     width: 50px;
 }
+
+
+/* index.css */
+
+/* ... Stiluri existente ... */
+
+.esports {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.jpg);
+    padding: 50px;
+    text-align: center;
+}
+
+.esports h1 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.news-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.news-item {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.news-item img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.news-item h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.news-item a {
+    display: inline-block;
+    font-size: 14px;
+    color: #007bff;
+}
+
+/* ... Stiluri suplimentare ... */
+.teams-btn {
+    font-size: 20px;
+    padding: 10px 200px;
+    background-color: white;
+    color: #8b8a8a;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    margin-top: 40px;
+  font-family: "Arial", sans-serif;
+  }
+  
+  .teams-btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  

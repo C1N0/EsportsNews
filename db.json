@@ -1,0 +1,169 @@
+{
+    "teams": [
+      {
+        "id": 1,
+        "name": "Team Liquid",
+        "game": "Dota 2",
+        "country": "United States",
+        "players": [
+          "Miracle-",
+          "MATUMBAMAN",
+          "MinD_ContRoL",
+          "GH",
+          "KuroKy"
+        ],
+        "tournamentId": 1
+      },
+      
+      {
+        "id": 2,
+        "name": "Fnatic",
+        "game": "League of Legends",
+        "country": "Malaysia",
+        "players": [
+          "Bwipo",
+          "Selfmade",
+          "Nisqy",
+          "Upset",
+          "Hylissang"
+        ],
+        "tournamentId": 2
+      },
+      {
+        "id": 3,
+        "name": "FaZe Clan",
+        "game": "Counter-Strike: Global Offensive",
+        "country": "United States",
+        "players": [
+          "rain",
+          "NiKo",
+          "broky",
+          "coldzera",
+          "olofmeister"
+        ],
+        "tournamentId": 3
+      },
+      {
+        "id": 4,
+        "name": "OG",
+        "game": "Dota 2",
+        "country": "Europe",
+        "players": [
+          "n0tail",
+          "Topson",
+          "Ceb",
+          "Saksa",
+          "midone"
+        ],
+        "tournamentId": 1
+      },
+      {
+        "id": 5,
+        "name": "Team SoloMid",
+        "game": "League of Legends",
+        "country": "United States",
+        "players": [
+          "Huni",
+          "Spica",
+          "PowerOfEvil",
+          "Lost",
+          "SwordArt"
+        ],
+        "tournamentId": 2
+      },
+      {
+        "id": 6,
+        "name": "Natus Vincere",
+        "game": "Counter-Strike: Global Offensive",
+        "country": "Ukraine",
+        "players": [
+          "s1mple",
+          "electronic",
+          "Boombl4",
+          "Perfecto",
+          "B1T"
+        ],
+        "tournamentId": 3
+      },
+      {
+        "id": 7,
+        "name": "Evil Geniuses",
+        "game": "Dota 2",
+        "country": "United States",
+        "players": [
+          "Arteezy",
+          "Iceiceice",
+          "Cr1t-",
+          "Fly",
+          "Abed"
+        ],
+        "tournamentId": 1
+      },
+      {
+        "id": 8,
+        "name": "G2 Esports",
+        "game": "League of Legends",
+        "country": "Spain",
+        "players": [
+          "Wunder",
+          "Jankos",
+          "Caps",
+          "Rekkles",
+          "Mikyx"
+        ],
+        "tournamentId": 2
+      },
+      {
+        "id": 9,
+        "name": "Astralis",
+        "game": "Counter-Strike: Global Offensive",
+        "country": "Denmark",
+        "players": [
+          "device",
+          "dupreeh",
+          "Xyp9x",
+          "Magisk",
+          "Bubzkji"
+        ],
+        "tournamentId": 3
+      },
+      {
+        "id": 10,
+        "name": "Virtus.pro",
+        "game": "Dota 2",
+        "country": "Russia",
+        "players": [
+          "ILTW",
+          "gpk",
+          "DM",
+          "Miposhka",
+          "Save-"
+        ],
+        "tournamentId": 1
+      }
+    ],
+    "tournaments": [
+      {
+        "id": 1,
+        "name": "The International",
+        "game": "Dota 2",
+        "year": 2021,
+        "location": "Stockholm, Sweden"
+      },
+      {
+        "id": 2,
+        "name": "Worlds Championship",
+        "game": "League of Legends",
+        "year": 2021,
+        "location": "Shenzhen, China"
+      },
+      {
+        "id": 3,
+        "name": "ESL One Cologne",
+        "game": "Counter-Strike: Global Offensive",
+        "year": 2021,
+        "location": "Cologne, Germany"
+      }
+    ]
+  }
+  
